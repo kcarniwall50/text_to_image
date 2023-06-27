@@ -69,7 +69,6 @@ const TextToImage = () => {
     <div>
 
       <h2>Generate Image from Text</h2>
-      <br/>
 
       <div>
         <textarea
@@ -88,10 +87,10 @@ const TextToImage = () => {
         <button onClick={generateImage} > get image </button>
       </div>
 
-      <div style={{ width:'95%', margin:'1rem auto'}} >
+      <div style={{ width:'95%', margin:'0.6rem auto'}} >
         <img
         src={imageURL}  alt="imge" 
-        style={{width:'100%', height:'auto'}}
+        style={{width:'70%', height:'auto'}}
         />
 
       </div>
