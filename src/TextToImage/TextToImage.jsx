@@ -87,10 +87,10 @@ const TextToImage = () => {
         <button onClick={generateImage} > get image </button>
       </div>
 
-      <div style={{ width:'95%', margin:'0.6rem auto'}} >
+      <div style={{ width:'95%',height:'100%',  margin:'0.6rem auto'}} >
         <img
         src={imageURL}  alt="imge" 
-        style={{width:'70%', height:'auto'}}
+        style={{width:'70vw', height:'60vh'}}
         />
 
       </div>
